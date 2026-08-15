@@ -225,7 +225,7 @@ func (n *ISBN) EquivalientTo(other *ISBN) bool {
 	return true
 }
 
-// ToURN retusn the string urn for this ISBN
+// ToURN returns the string urn for this ISBN
 func (n *ISBN) ToURN() string {
 	return urnPrefix + n.String()
 }
